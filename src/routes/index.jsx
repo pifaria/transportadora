@@ -1,5 +1,7 @@
 import { Route, Switch } from "react-router-dom"
 import Actions from "../pages/actions"
+import Client from "../pages/client"
+import Contact from "../pages/contact"
 import Home from "../pages/home"
 import MyOrder from "../pages/myOrder"
 import OrdersPage from "../pages/orders"
@@ -29,9 +31,11 @@ const Routes = () => {
             </Route>
 
             <Route path="/contato">
+                <Contact/>
             </Route>
 
             <Route path="/area-cliente">
+                <Client/>
             </Route>
         </Switch>
     )
