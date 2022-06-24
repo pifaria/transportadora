@@ -13,4 +13,11 @@ https://fonts.google.com/specimen/Inter?query=inter
 Nas versões - regular(400), medium(500) e bold(700)
 https://fonts.google.com/specimen/Roboto
 
+## Bibliotecas usadas:
+- Styled components
+- React hook form
+- React router dom
+- React toastify
+- React icons
+- Yup
 
