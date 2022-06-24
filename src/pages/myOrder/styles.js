@@ -5,10 +5,6 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    img{
-        display: none;
-    }
 `
 
 export const Content = styled.main`
@@ -45,8 +41,5 @@ export const Content = styled.main`
         }
     }
 
-    @media (min-width: 1000px){
-
-    }
 `
 
