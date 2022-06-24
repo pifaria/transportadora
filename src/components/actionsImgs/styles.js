@@ -20,4 +20,13 @@ export const Container = styled.div`
             width: 100%;
         }
     }
+
+    @media (min-width: 1000px){
+        width: 95%;
+        
+        div{
+            width: 200px;
+            height: 200px;
+        }
+    }
 `

@@ -8,7 +8,7 @@ import { useVerification } from "../../providers/verification";
 const Header = () =>{
     const { openModal } = useMenu()
     const { setOrderList, newSearch } = useOrder()
-    const { verification, setVerification } = useVerification()
+    const { setVerification } = useVerification()
 
     const history = useHistory()
 
@@ -29,11 +29,10 @@ const Header = () =>{
                 />
                 <FiMenu size={40} onClick={openModal}/>
                 <nav>
-                    <Link>Quem somos</Link>
-                    <Link>Ações sociais</Link>
-                    <Link>Contato</Link>
-                    <Link>Área do cliente</Link>
-                    <Link></Link>
+                    <Link to="/perfil">Quem somos</Link>
+                    <Link to="/acoes-sociais">Ações sociais</Link>
+                    <Link to="/contato">Contato</Link>
+                    <Link to="/area-cliente">Área do cliente</Link>
                 </nav>
             </Content>
         </Container>

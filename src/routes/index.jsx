@@ -28,22 +28,7 @@ const Routes = () => {
                 <Actions/>
             </Route>
 
-            <Route path="/franquias">
-            </Route>
-
-            <Route path="/blog">
-            </Route>
-
-            <Route path="/trabalhe-conosco">
-            </Route>
-
-            <Route path="/blog">
-            </Route>
-
             <Route path="/contato">
-            </Route>
-
-            <Route path="/canal">
             </Route>
 
             <Route path="/area-cliente">

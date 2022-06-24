@@ -59,5 +59,31 @@ export const Content = styled.main`
         h3{
             font-size: 1.5rem;
         }
+
+        img{
+            display: none;
+        }
+    }
+
+    @media (min-width: 1000px){
+        .orderContent{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            span{
+                width: 100vw;
+                font-size: 2rem;
+            }
+
+            img{
+                display: block;
+            }
+
+            ul{
+                width: 40%;
+            }
+        }
     }
 `

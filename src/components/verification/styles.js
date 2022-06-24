@@ -36,4 +36,10 @@ export const Content = styled.main`
             margin: 16px 0;
         }
     }
+
+    @media (min-width: 1000px){
+        form{
+            width: 40%;
+        }
+    }
 `

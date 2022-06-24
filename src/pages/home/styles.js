@@ -9,6 +9,20 @@ export const Container = styled.section`
     align-items: center;
     height: 100vh;
     overflow-y: scroll;
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px var(--black);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--orange);
+        border-radius: 10px;
+    }
 `
 
 export const Content = styled.main`

@@ -21,7 +21,11 @@ const OrdersPage = () => {
             <Content>
                 {orderList.length > 0 ?
                     <div className="orderContent">
-                        <span>Selecione a opção abaixo que comece igual seu e-mail</span>
+                        <span>Selecione a opção abaixo que corresponde seu e-mail</span>
+                        <img
+                            alt="procurar email"
+                            src="https://cdni.iconscout.com/illustration/premium/thumb/search-engine-optimization-3678968-3092479.png"
+                        />
                         <ul className="ordersList">
                             {orderList.map((order) => (
                                 <li key={order.id}>

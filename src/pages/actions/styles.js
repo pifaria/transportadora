@@ -52,4 +52,8 @@ export const Content = styled.main`
         display: flex;
         justify-content: center;
     }
+
+    @media (min-width: 1000px){
+        overflow-y: hidden;
+    }
 `

@@ -35,6 +35,16 @@ export const Content = styled.section`
 
         nav{
             display: flex;
+            
+            a{
+                color: var(--white);
+                margin-left: 20px;
+
+                :hover{
+                    color: var(--orange);
+                    border-bottom: 1px solid var(--orange);
+                }
+            }
         }
 
         svg{
@@ -42,6 +52,7 @@ export const Content = styled.section`
         }
 
         img{
+            display: block;
             width: 20%;
         }
     }

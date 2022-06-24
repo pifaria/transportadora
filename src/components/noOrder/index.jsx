@@ -19,6 +19,11 @@ const NoOrder = () =>{
                 <li>- A encomenda ainda não foi liberada pelo remetente para que possamos seguir com os procedimentos de entrega;</li>
                 <li>- O seu código de rastreio pode estar incorreto ou incompleto.</li>
             </ul>
+            <img
+                alt="Pedido não encontrado"
+                src="https://cdni.iconscout.com/illustration/premium/thumb/not-found-4064375-3363936.png"
+            />
+
         </Container>
     )
 }

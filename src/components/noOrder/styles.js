@@ -26,4 +26,30 @@ export const Container = styled.section`
     p, li{
         text-align: start;
     }
+
+    img{
+        display: none;
+    }
+
+    @media (min-width: 1000px){
+        justify-content: flex-start;
+
+        section{
+            margin: 36px 0;
+        }
+
+        ul{
+            margin-top: 24px;
+        }
+
+        li{
+            margin-top: 10px;
+        }
+
+        img{
+            display: block;
+            width: 15vw;
+            align-self: flex-end;
+        }
+    }
 `

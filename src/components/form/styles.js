@@ -21,4 +21,9 @@ export const Content = styled.form`
         margin-bottom: 12px;
     }
 
+    @media (min-width: 100px){
+        input{
+            height: 60px;
+        }
+    }
 `

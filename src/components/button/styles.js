@@ -14,4 +14,8 @@ export const Container = styled.button`
         box-shadow: inset 0 0 2em var(--orange);
         color: var(--orange);
     }
+
+    @media (min-width: 1000px){
+        height: 60px;
+    }
 `

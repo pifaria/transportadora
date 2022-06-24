@@ -15,7 +15,7 @@ export const VerificationProvider = ({children}) => {
             return setVerification(true)
             
         }else{    
-            toast.error("Os e-mails não correspondem")
+            toast.error("Os dados não correspondem")
             return setVerification(false)
         }
     } 
